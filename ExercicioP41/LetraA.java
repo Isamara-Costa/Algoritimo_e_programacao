@@ -3,14 +3,17 @@
 
 void main(){
 
-    float A = Float.parseFloat(IO.readln("Informe o primeiro Numero: "));
-    float B = Float.parseFloat(IO.readln("Informe o segundo Numero: "));
+    float a = Float.parseFloat(IO.readln("Informe o primeiro número A: "));
+    float b = Float.parseFloat(IO.readln("Informe o segundo número B: "));
 
-    if(A>B)
-        float Resultado = A-B;
-        IO.println("A diferença dos número é " + Resultado);
-    else(B > A)   
-        float Resultado = B-A;
-        IO.println("A diferença dos número é " + Resultado);
+    float resultado;
 
+     if (a>b) {
+       resultado =a-b;
+       IO.println("A difereça de A-B é: " + resultado); 
+    } else {
+        resultado = b-a;
+        IO.println("A diferença de B-A é: " + resultado);
+    }
 }
+
