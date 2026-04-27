@@ -7,8 +7,10 @@ void main(){
     float B = Float.parseFloat(IO.readln("Informe o segundo Numero: "));
 
     if(A>B)
-        IO.println("A diferença dos número é " , (A-B));
-    else (B > A)    
-        IO.println("A diferença dos número é " , (B-A));
+        float Resultado = A-B;
+        IO.println("A diferença dos número é " + Resultado);
+    else(B > A)   
+        float Resultado = B-A;
+        IO.println("A diferença dos número é " + Resultado);
 
 }
